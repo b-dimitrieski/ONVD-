@@ -16,7 +16,7 @@ All styles are written in a single `style.css` file. CSS animations are used to 
 ## 🌐 Hosted Link
 
 You can view the live version of the website here:  
-👉 **https://b-dimitrieski.github.io/ONVD-/**
+👉 **[https://b-dimitrieski.github.io/ONVD-](https://b-dimitrieski.github.io/ONVD-Homework/)/**
 
 ## 📌 Technologies Used
 
