@@ -1,0 +1,181 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #87d8c0 15%, #78b5a6 40%, #608a82, #55756c) center;
+
+}
+
+nav {
+  background-color: #2a2e2a;
+  padding:20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 70px;
+  margin-right: 70px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #76a69d;
+}
+nav a.active {
+  border-bottom: 1px solid #76a69d;
+}
+.welcome{
+  color: #253532;
+  font-weight: bold;
+  margin-top: 100px;
+  font-size: 40px;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 100px 60px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 25px #558379;
+}
+.about {
+  font-weight: bold;
+  margin-top: 100px;
+  font-size: 40px;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1px 60px 400px 60px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 25px #558379;
+}
+.welcome:hover, .about:hover, .hobbies:hover, .contact:hover {
+  background: radial-gradient(circle, #7bdac0 15%, #6ab3a0 40%, #4b7871, #395950) center;
+}
+.welcome p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px #558379;
+}
+.welcome p:first-of-type{
+  font-size: 50px;
+}
+.about h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 10px #558379;
+}
+.about p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 100px 40px 100px;
+  text-shadow: 0 0 10px #558379;
+
+}
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.pop-up {
+  opacity: 0;
+  animation: popIn 0.6s ease-out forwards;
+}
+.hobbies {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 100px auto;
+  padding: 60px;
+  border-radius: 15px;
+  text-align: center;
+  text-shadow: 0 0 10px #558379;
+  box-shadow: 0 0 25px #558379;
+}
+
+.hobbies h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hobbies ul li {
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.hobbies ul li p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #e0f5f2;
+  font-weight: normal;
+  text-shadow: 0 0 8px #4a7268;
+  margin-left: 20px;
+  }
+.contact {
+    color: white;
+    font-weight: bold;
+    margin: 100px auto;
+    padding: 60px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 25px #558379;
+    text-shadow: 0 0 10px #558379;
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  font-size: 22px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2.5;
+}
+
+.contact ul li {
+  color: #e0f5f2;
+  text-shadow: 0 0 8px #4a7268;
+  font-weight: bold;
+}
+
+.contact ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact ul li a:hover {
+  color: #76a69d;
+  text-shadow: 0 0 12px #76a69d;
+}
